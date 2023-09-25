@@ -182,9 +182,41 @@
                                         <span class="sku_wrapper">Mã: <span class="sku" itemprop="sku"><?php the_field('ma_san_pham');?></span></span>
                                     <?php endif;?>
                                 </div>
-                                <div class="a">
-                                    <span class="special-price"><span class="price product-price">  <a rel="nofollow" href="tel:0363293000" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Liên hệ</a></span> </span>
-                                    <!-- Giá Khuyến mại --></div>
+	                            <div class="a">
+		                            <span class="special-price"><span class="price product-price">  <a rel="nofollow" href="tel:0363293000" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Liên hệ</a></span> </span>
+		                            <!-- Giá Khuyến mại --></div>
+	                            <div>
+		                            <br>
+		                            TRANH DÁN TƯỜNG 3 SAO CHUYÊN CUNG CẤP NHỮNG DÒNG SẢN PHẨM TRANH 3D CAO CẤP VÀ UY TÍN NHẤT TRÊN THỊ TRƯỜNG VÀ MANG ĐẾN CHO KHÁCH HÀNG SỰ PHỤ VỤ TẬN TÌNH VÀ CHUYÊN NGHIỆP NHẤT<br>
+
+		                            👉👉👉CÁC CHẤT LIỆU IN TRANH<br>
+		                            ➡ Tranh in trên decal PP (phải ghép nối, để lại vết ghép thích hợp dán tường ẩm, kính)<br>
+		                            ➡ Tranh in trên Vải lụa Kim Sa 3D (Khổ lớn không phải ghép nối, màu sắc đẹp, độ bền cao 15 năm<br>
+		                            ➡ Tranh in trên Vải lụa Bóng UV<br>
+		                            ➡ Tranh in trên Vải lụa in 3D bóng nổi 100%<br>
+		                            ➡ Tranh in trên Vải lụa in 3D bóng nổi 200%<br>
+		                            ➡ Tranh in trên Vải lụa in 3D bóng nổi 300%<br>
+		                            ➡ Tranh in trên Vải lụa in 3D bóng nổi 500%<br>
+		                            ➡ Tranh in trên Vải lụa in 3D bóng nổi 800%<br>
+		                            ➡ MIỄN PHÍ TƯ VẤN VÀ CÔNG DÁN TẬN NHÀ<br>
+		                            ➡CAM KẾT CHẤT LƯỢNG, BẢO HÀNH 10 NĂM<br>
+		                            <br>
+		                            👉Chúng tôi cam kết:<br>
+
+		                            ✔️ Tư vấn size, màu sắc, phong thủy miễn phí với kinh nghiệm nhiều năm trong nghề.<br>
+		                            ✔️Giá cả cạnh tranh nhất thị trường<br>
+		                            ✔️ Đặt tranh theo size yêu cầu để phù hợp nhất với không gian nhà bạn<br>
+		                            ✔️Hoàn trả nếu không đúng yêu cầu đặt hàng tranh nhòe vỡ hình, mờ………<br>
+		                            ✔️Chất liệu in và mực in được nhập khẩu trực tiếp nước ngoài<br>
+		                            ✔️ Thợ thi công chuyên nghiệp.<br>
+
+		                            <br><br>
+		                            Với kinh nghiêm lâu năm trong nghề và chế độ bảo hành nhanh chóng , uy tín ,Tranh dán tường 3 sao luôn mang đến sự hài lòng cho quý khách hang.
+		                            <br><br>
+		                            ☎️ HOTLINE : 0363.293.000
+		                            🏠  Địa chỉ văn phòng giao dịch : 144 Trần Phú, P. Mộ Lao, Hà Đông, Hà Nội
+	                            </div>
+
                                 <del><span class="old-price"><span
                                                 class="price product-price-old">  <a rel="nofollow" href="tel:0363293000" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Liên hệ</a></span> </span></del>
                                 <!-- Giá gốc -->
@@ -360,7 +392,7 @@
 
                 $args = array(
                     'post_type' => 'san-pham',
-                    'posts_per_page' => 12,
+                    'posts_per_page' => 4,
                     'tax_query' => array(
                         array(
                             'taxonomy' => 'category_san-pham',

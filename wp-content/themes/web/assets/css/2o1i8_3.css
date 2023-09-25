@@ -953,7 +953,7 @@ h4 {
 .ff1 {
     position: relative;
     float: left;
-    height: 400px;
+    /*height: 400px;*/
     text-align: justify;
     line-height: 18px;
     background: #106a34  no-repeat 30px 230px;

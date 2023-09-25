@@ -5,7 +5,7 @@
             <li class="b"></li>
         </ul>
         <div class="row">
-            <div class="col-md-6 col-sm-3 col-xs-4">
+            <div class="col-md-6 ">
                 <h5>Giấy dán tường</h5>
                 <div class="menu-do-trang-tri-nha-cua-container">
                     <ul id="menu-do-trang-tri-nha-cua" class="menu">
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-3 col-xs-4">
+            <div class="col-md-6">
                 <h5>Tranh dán tường</h5>
                 <div class="menu-decal-dan-tuong-container">
                     <ul id="menu-decal-dan-tuong" class="menu">

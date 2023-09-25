@@ -546,18 +546,59 @@
                 class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-18763 dropdown">
                 <a title="Decal Dán Tường" href="/category/giay-dan-tuong/">Giấy dán tường</a> <span
                         class="caret dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"></span>
-<!--                <ul role="menu" class="sub-menu ">-->
-<!--                    <li id="menu-item-25120"-->
-<!--                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-25120"><a-->
-<!--                                title="Decal Cây &amp; Hoa" href="#">Decal-->
-<!--                            Cây &amp; Hoa</a></li>-->
-<!--                </ul>-->
+                <ul role="menu" class="sub-menu ">
+	                <?php
+	                // Thay thế 'category' bằng taxonomy bạn muốn sử dụng
+	                $taxonomy = 'category_san-pham';
+
+	                // Thay thế 'term-cha' bằng slug hoặc ID của term cha bạn muốn lấy các term con của nó
+	                $parent_term = 'giay-dan-tuong';
+
+	                // Lấy ID của term cha
+	                $parent_term_id = get_term_by('slug', $parent_term, $taxonomy)->term_id;
+
+	                // Sử dụng get_terms để lấy các term con
+	                $child_terms = get_terms(array(
+		                'taxonomy' => $taxonomy,
+		                'parent'   => $parent_term_id,
+	                ));
+
+	                // Duyệt qua danh sách các term con và hiển thị thông tin
+	                foreach ($child_terms as $child_term) {
+		                echo '<li><a href="' . get_term_link($child_term, $taxonomy) . '">' . $child_term->name . '</a></li>';
+	                }
+
+	                ?>
+                </ul>
             </li>
             <li id="menu-item-29935"
                 class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-29935 dropdown">
                 <a title="Phụ Kiện Giáng Sinh" href="/category/tranh-dan-tuong/">Tranh dán tường</a>
                 <span class="caret dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"></span>
+	            <ul role="menu" class="sub-menu ">
+		            <?php
+		            // Thay thế 'category' bằng taxonomy bạn muốn sử dụng
+		            $taxonomy = 'category_san-pham';
 
+		            // Thay thế 'term-cha' bằng slug hoặc ID của term cha bạn muốn lấy các term con của nó
+		            $parent_term = 'tranh-dan-tuong';
+
+		            // Lấy ID của term cha
+		            $parent_term_id = get_term_by('slug', $parent_term, $taxonomy)->term_id;
+
+		            // Sử dụng get_terms để lấy các term con
+		            $child_terms = get_terms(array(
+			            'taxonomy' => $taxonomy,
+			            'parent'   => $parent_term_id,
+		            ));
+
+		            // Duyệt qua danh sách các term con và hiển thị thông tin
+		            foreach ($child_terms as $child_term) {
+			            echo '<li><a href="' . get_term_link($child_term, $taxonomy) . '">' . $child_term->name . '</a></li>';
+		            }
+
+		            ?>
+	            </ul>
             </li>
             <li id="menu-item-31174"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31174 dropdown">
