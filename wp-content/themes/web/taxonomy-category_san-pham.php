@@ -16,7 +16,7 @@
                         <?php
                         global $paged;
                         $curpage = $paged ? $paged : 1;
-                        $posts_per_page = 40;
+                        $posts_per_page = 20;
                         $current_term = get_queried_object();
                         $args = array(
                             'post_type' => 'san-pham', // Thay 'post' bằng tên của custom post type nếu cần thiết
