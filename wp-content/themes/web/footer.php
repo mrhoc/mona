@@ -128,7 +128,7 @@
                 <div class="ftt-012">
                     <h3>HÃY GỌI HOTLINE ĐỂ ĐƯỢC TƯ VẤN</h3>
                     <div class="textwidget">
-                        <h4>Hỗ trợ <b>0363.293.000</b></h4>
+                        <h4>Hỗ trợ <b>0963981213</b></h4>
                     </div>
                 </div>
             </div>
@@ -136,9 +136,11 @@
                 <h4 class="tt-ft">ĐỊA CHỈ Giấy dán tường 3sao</h4>
                 <div class="textwidget">
                     <p><i class="fa fa-caret-right"></i>Trụ Sở Chính:<br />
-                        Địa chỉ: 144 Trần Phú, P. Mộ Lao, Hà Đông, Hà Nội<br />
-                        Hotline: 0363.293.000<br />
-                        Email: tvh271@gmail.com<i class="fa fa-caret-right"></i></p>
+                        Địa chỉ: 146 Trần Phú, P. Mộ Lao, Hà Đông, Hà Nội<br />
+                        Địa chỉ: 268 cầu giấy, xuân thủy, Hà Nội<br />
+                        Địa chỉ: 291 hoàng quốc việt, Hà Nội<br />
+                        Hotline: 0963981213<br />
+                        Email: tvh271@gmail.com</p>
                     <p class="end-a"><i class="fa fa-caret-right"></i>Mở cửa từ 8:00 đến 18:00</p>
                 </div>
             </div>
