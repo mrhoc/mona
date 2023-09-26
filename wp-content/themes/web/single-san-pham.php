@@ -295,20 +295,7 @@
                                 </div>
 
                                 <div class="sb-04 tome">
-                                    <div class="fb-page fb_iframe_widget" data-height="260px"
-                                         data-href="https://www.facebook.com/monadecor999" data-tabs="timeline"
-                                         data-small-header="false" data-adapt-container-width="true"
-                                         data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered"
-                                         fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=282&amp;height=260&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmonadecor999&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false&amp;tabs=timeline">
-                                        <span style="vertical-align: bottom; width: 282px; height: 260px;"><iframe
-                                                    name="f11626b79c91364" width="1000px" height="260px"
-                                                    data-testid="fb:page Facebook Social Plugin"
-                                                    title="fb:page Facebook Social Plugin" frameborder="0"
-                                                    allowtransparency="true" allowfullscreen="true" scrolling="no"
-                                                    allow="encrypted-media"
-                                                    src="https://www.facebook.com/v8.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1d84570d1d5a4%26domain%3Dmona.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmona.vn%252Ff86ba465bf87c8%26relation%3Dparent.parent&amp;container_width=282&amp;height=260&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fmonadecor999&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false&amp;tabs=timeline"
-                                                    style="border: none; visibility: visible; width: 282px; height: 260px;"
-                                                    class=""></iframe></span></div>
+	                                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
                                 </div>
                             </div>
                         </div>
